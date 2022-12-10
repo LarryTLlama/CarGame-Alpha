@@ -49,7 +49,7 @@ velocity_threshold = 1
 max_fixed_timesteps = 2
 
 [bootstrap]
-main_collection = /main/game.collectionc
+main_collection = /main/main.collectionc
 render = /builtins/render/default.renderc
 
 [graphics]
@@ -98,7 +98,7 @@ max_count = 128
 
 [gui]
 max_count = 64
-max_particlefx_count = 64
+max_particlefx_count = 128
 max_particle_count = 1024
 
 [collection]
@@ -154,18 +154,19 @@ custom_heap_size = 0
 heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
+splash_image = /graphics/title.png
 archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
 show_fullscreen_button = 1
-show_made_with_defold = 0
+show_made_with_defold = 1
 show_console_banner = 1
 scale_mode = downscale_fit
 
 [particle_fx]
-max_count = 64
-max_emitter_count = 64
+max_count = 152
+max_emitter_count = 152
 max_particle_count = 1024
 
 [iap]
